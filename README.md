@@ -39,14 +39,15 @@ RegisterNumber: 212222110019
 ![Screenshot 2023-04-19 133918](https://user-images.githubusercontent.com/121163440/233012241-568c91e3-a7bd-465c-a1c7-2888eb67fce9.png)
 vv
 
-## Output:![Screenshot 2023-04-19 134042](https://user-images.githubusercontent.com/121163440/233011447-d370ab13-f285-4e3a-94a3-56af98507bb7.png)
+## Output:
 
 
 ## Truthtable
 
 
 
-##  RTL realization
+##  RTL realization   ![Screenshot 2023-04-19 134042](https://user-images.githubusercontent.com/121163440/233014884-a01d92cb-eeab-4301-a165-9c3d601750f5.png)
+
 
 
 ## Timing diagram ![Screenshot 2023-04-19 134209](https://user-images.githubusercontent.com/121163440/233011744-a373f5fb-93b6-45ee-ac98-3581cfc4810f.png)
