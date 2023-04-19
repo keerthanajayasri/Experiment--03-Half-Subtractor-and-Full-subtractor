@@ -26,20 +26,21 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
-
-
-
-Write the detailed procedure here 
+ Connect the supply (+5V) to the circuit Switch ON the main switch Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed. If the output is 1, then the bulb glows. Check all the gates following the same procedure. 
 
 
 ## Program:
+
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  keerthana jayasri
+RegisterNumber: 212222110019 
 
-## Output:
+![Screenshot 2023-04-19 133918](https://user-images.githubusercontent.com/121163440/233012241-568c91e3-a7bd-465c-a1c7-2888eb67fce9.png)
+vv
+
+## Output:![Screenshot 2023-04-19 134042](https://user-images.githubusercontent.com/121163440/233011447-d370ab13-f285-4e3a-94a3-56af98507bb7.png)
+
 
 ## Truthtable
 
@@ -48,7 +49,8 @@ RegisterNumber:
 ##  RTL realization
 
 
-## Timing diagram 
+## Timing diagram ![Screenshot 2023-04-19 134209](https://user-images.githubusercontent.com/121163440/233011744-a373f5fb-93b6-45ee-ac98-3581cfc4810f.png)
+
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
