@@ -36,24 +36,47 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by:  keerthana jayasri
 RegisterNumber: 212222110019 
 
-![Screenshot 2023-04-19 133918](https://user-images.githubusercontent.com/121163440/233012241-568c91e3-a7bd-465c-a1c7-2888eb67fce9.png)
-vv
+HALF SUBTRACTOR:
+module HalfSub(a,b,difference,borrow);
+input a,b;
+output difference,borrow;
+assign difference=(a^b);
+assign borrow=(~a&b);
+endmodule
+FULL SUBTRACTOR:
+module FullSub(a,b,c,difference,borrow);
+input a,b,c;
+output difference,borrow;
+assign borrow=(~a&(b^c)|(b&c));
+assign difference=(a^b^c);
+endmodule
 
-## Output:
+logic gates:
+
+![image](https://github.com/keerthanajayasri/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/121163440/a8fa9f15-5afb-48f7-92c3-75085f33247f)
 
 
 ## Truthtable
 
+![image](https://github.com/keerthanajayasri/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/121163440/848c1eae-bf8b-415c-93d3-7bae3f18eb55)
+FULL SUBTRACTOR:
 
+
+![image](https://github.com/keerthanajayasri/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/121163440/bda6a442-2051-4ebb-b5a2-cdf77a8ca367)
 
 ##  RTL realization  
-![Screenshot 2023-04-19 134042](https://user-images.githubusercontent.com/121163440/233015125-c7005aa0-c706-4428-8eb3-3e1cee3e3d3c.png)
+![image](https://github.com/keerthanajayasri/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/121163440/76bde491-a326-464f-9919-e6ddb815f04b)
+
+FULL SUBTRACTOR:
 
 
 
+![image](https://github.com/keerthanajayasri/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/121163440/3fb8a9e5-fde2-47e7-9046-30d6ab4771dc)
 
-## Timing diagram ![Screenshot 2023-04-19 134209](https://user-images.githubusercontent.com/121163440/233011744-a373f5fb-93b6-45ee-ac98-3581cfc4810f.png)
 
+## Timing diagram 
+
+![image](https://github.com/keerthanajayasri/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/121163440/b6ded3a2-7ece-4d08-b195-ecae3896070a)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
